@@ -1,6 +1,8 @@
 import requests
 from datetime import datetime
 from bs4 import BeautifulSoup
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 
 
 def is_valid_format(str):
